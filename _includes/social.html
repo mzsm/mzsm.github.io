@@ -1,11 +1,9 @@
 <ul class="social-media-list">
-  {% if site.author.email -%}
   <li>
-    <a rel="author" href="mailto:{{ site.author.email }}" target="_blank" title="email">
-      <span class="grey fa-regular fa-envelope fa-lg"></span>
+    <a rel="me" href="https://forms.gle/Ud6wYjPPsMrTSgHq9" target="_blank" title="mail">
+      <span class="grey fa-solid fa-envelope fa-lg"></span>
     </a>
   </li>
-  {%- endif %}
   {%- for entry in site.minima.social_links -%}
   <li>
     <a rel="me" href="{{ entry.url }}" target="_blank" title="{{ entry.title }}">

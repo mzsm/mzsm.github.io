@@ -1,6 +1,7 @@
 ---
 layout: page
-title: 執筆実績
+title: works / text
+subtitle: 執筆実績
 permalink: /works/text/
 ---
 

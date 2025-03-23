@@ -21,9 +21,8 @@
 title: mzsm.dev
 author:
   name: mzsm
-  email: j@mzsm.me
 description: >- # this means to ignore newlines until "baseurl:"
-  大阪で主にWebアプリケーションをつくっている開発者です。
+  大阪在住のITエンジニアです。主にWebシステムの開発、Webサイト制作を行っています。mzsmはみずしまと読みます。
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: mzsm_j
@@ -38,11 +37,7 @@ plugins:
 #  - jekyll-feed
 
 minima:
-  skin: solarized
-  nav_pages:
-    - profile.md
-    - works-dev.md
-    - works-text.md
+  skin: solarized-light
   social_links:
     - title: GitHub
       url: https://github.com/mzsm
@@ -53,6 +48,9 @@ minima:
     - title: Bluesky
       url: https://bsky.app/profile/mzsm.bsky.social
       icon: bluesky
+    - title: discord
+      url: https://discordapp.com/users/353172060307980298
+      icon: discord
   date_format: "%Y-%m-%d"
 
 # Exclude from processing.
