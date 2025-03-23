@@ -11,3 +11,39 @@
   padding-top: 18px;
   border-top: 1px solid $border-color-01;
 }
+
+.with-note-logo {
+  display: flex;
+  align-items: center;
+}
+.note-logo {
+  display: flex;
+  svg {
+    height: 20px;
+    width: auto;
+  }
+}
+
+.social-media-list li a.social-media-icon {
+  padding: 6px 8px;
+  span {
+    display: flex;
+  }
+  svg {
+    height: 30.5px;
+    width: 30.5px;
+  }
+}
+
+
+.black {
+  color: black;
+}
+
+.bluesky {
+  color: #0085ff;
+}
+
+.discord {
+  color: #5865F2;
+}

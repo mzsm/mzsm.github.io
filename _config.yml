@@ -42,15 +42,19 @@ minima:
     - title: GitHub
       url: https://github.com/mzsm
       icon: github
+      color: black
     - title: X
       url: https://x.com/mzsm_j
       icon: x-twitter
+      color: black
     - title: Bluesky
       url: https://bsky.app/profile/mzsm.bsky.social
       icon: bluesky
-    - title: discord
+      color: bluesky
+    - title: Discord
       url: https://discordapp.com/users/353172060307980298
       icon: discord
+      color: discord
   date_format: "%Y-%m-%d"
 
 # Exclude from processing.
